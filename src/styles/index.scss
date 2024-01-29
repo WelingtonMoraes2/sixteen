@@ -1,0 +1,43 @@
+$widthContent: 1440px;
+$mobileWidth: 980px;
+
+@import '~bulma/bulma.sass';
+@import './font.scss';
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: $primary-font;
+
+  .bd-content {
+    width: 90%;
+    max-width: $widthContent;
+    margin: 0 auto;
+  }
+}
+
+// .alinItem {
+//   align-items: center;
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+// }
+
+// .alignVertical {
+//   @extend .alinItem;
+//   justify-content: center;
+// }
+
+// .alignVerticalEnd {
+//   @extend .alinItem;
+//   justify-content: flex-end;
+// }
+
+// .alignVerticalStart {
+//   @extend .alinItem;
+//   justify-content: flex-start;
+// }
