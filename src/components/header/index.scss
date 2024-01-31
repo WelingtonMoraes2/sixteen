@@ -3,6 +3,7 @@
 header {
     min-height: 134px;
     background-color: #111d4d;
+    transition: 0.3s;
 
     img {
         width: 100%;
@@ -17,4 +18,13 @@ header {
         margin-left: 42px;
         transition: 0.3s;
     }
+}
+
+.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    animation: 1s ease-in-out 1s normal none 1 running fadeInDown;
 }

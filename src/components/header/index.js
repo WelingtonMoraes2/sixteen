@@ -2,10 +2,28 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./index.scss";
 import logoHeader from "../../assets/logo_head.png";
+import React, { useEffect } from "react";
 
 function Header() {
+    // Sticky Menu Area
+    useEffect(() => {
+        window.addEventListener("scroll", isSticky);
+        return () => {
+            window.removeEventListener("scroll", isSticky);
+        };
+    });
+
+    /* Method that will fix header after a specific scrollable */
+    const isSticky = (e) => {
+        const header = document.querySelector(".header-section");
+        const scrollTop = window.scrollY;
+        scrollTop >= 1
+            ? header.classList.add("is-sticky")
+            : header.classList.remove("is-sticky");
+    };
+
     return (
-        <header className="is-flex is-align-items-center">
+        <header className="header-section is-flex is-align-items-center">
             <div className="bg-content">
                 <div class="columns is-multiline is-mobile">
                     <div class="column is-one-quarter">
