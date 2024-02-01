@@ -1,13 +1,11 @@
 // import logo from './logo.svg';
 import "../styles/App.scss";
+import Banner from "../components/banner";
 
 function App() {
     return (
         <div className="App">
-            <h2>teste 1</h2>
-            <div className="buttons">
-                <button class="button is-primary">Primary</button>
-            </div>
+            <Banner />
         </div>
     );
 }

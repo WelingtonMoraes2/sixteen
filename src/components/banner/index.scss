@@ -1,0 +1,9 @@
+.banner {
+    background-color: red;
+
+    &__swiper {
+        .swiper-wrapper {
+            height: calc(100vh - 134px);
+        }
+    }
+}
