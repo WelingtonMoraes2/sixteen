@@ -14,7 +14,7 @@ import {
 
 function Footer() {
     return (
-        <footer className="is-flex is-align-items-center">
+        <footer className="is-flex is-align-items-center" id="idContato">
             <div className="bg-content">
                 <div class="columns">
                     <div class="column is-three-fifths is-flex is-flex-wrap-wrap is-align-items-center">

@@ -12,11 +12,14 @@ import videoaulas from "../assets/servicos/videoaulas.png";
 import quemSomos from "../assets/quemSomos/quemSomos.png";
 import detalheEsquerdo from "../assets/quemSomos/detalhe_esquerdo.png";
 
+// Projetos
+import detalheDireito from "../assets/projetos/detalhe_direito.png";
+
 function App() {
     return (
         <div className="App">
             <Banner />
-            <div className="App__servicos">
+            <div className="App__servicos" id="idServico">
                 <div className="bg-content">
                     <h1>Estúdio de locação para produções audiovisuais</h1>
                     <p>
@@ -50,7 +53,7 @@ function App() {
                 </div>
             </div>
 
-            <div className="App__quemSomos">
+            <div className="App__quemSomos" id="idQuemSomos">
                 <img
                     className="App__quemSomos--detalheEsquerdo"
                     src={detalheEsquerdo}
@@ -83,7 +86,11 @@ function App() {
                 </div>
             </div>
 
-            <div className="App__projetos">
+            <div className="App__projetos" id="idProjetos">
+                <img
+                    className="App__projetos--detalheDireito"
+                    src={detalheDireito}
+                />
                 <div className="bg-content">
                     <h2>Projetos</h2>
                     <p>

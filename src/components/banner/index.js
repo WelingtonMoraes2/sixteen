@@ -18,7 +18,7 @@ import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 
 function Banner() {
     return (
-        <div className="banner">
+        <div className="banner" id="idHome">
             <Swiper
                 loop={true}
                 effect={"fade"}

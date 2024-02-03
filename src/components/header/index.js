@@ -17,7 +17,7 @@ function Header() {
     const isSticky = (e) => {
         const header = document.querySelector(".header-section");
         const scrollTop = window.scrollY;
-        scrollTop >= 134
+        scrollTop >= 150
             ? header.classList.add("is-sticky")
             : header.classList.remove("is-sticky");
     };
@@ -30,11 +30,21 @@ function Header() {
                         <img src={logoHeader} />
                     </div>
                     <div class="column is-flex is-align-items-center is-justify-content-end">
-                        <a className="linkMenu">Home</a>
-                        <a className="linkMenu">Serviços</a>
-                        <a className="linkMenu">Quem Somos</a>
-                        <a className="linkMenu">Projetos</a>
-                        <a className="linkMenu">Contato</a>
+                        <a href="#idHome" className="linkMenu">
+                            Home
+                        </a>
+                        <a href="#idServico" className="linkMenu">
+                            Serviços
+                        </a>
+                        <a href="#idQuemSomos" className="linkMenu">
+                            Quem Somos
+                        </a>
+                        <a href="#idProjetos" className="linkMenu">
+                            Projetos
+                        </a>
+                        <a href="#idContato" className="linkMenu">
+                            Contato
+                        </a>
                     </div>
                 </div>
             </div>
