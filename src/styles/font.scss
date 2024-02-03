@@ -5,13 +5,14 @@ $primary-font: "Roboto", sans-serif;
 $secundary-font: "Poppins", sans-serif;
 
 h1 {
-    font-size: 3.125rem;
+    font-family: $secundary-font;
+    font-size: 3.4rem;
     font-style: normal;
     font-weight: 500;
 }
 
 h2 {
-    font-size: 2.1875rem;
+    font-size: 3.4rem;
     font-style: normal;
     font-weight: 700;
 }
@@ -24,14 +25,10 @@ h3 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.875rem;
-
-    b {
-        font-weight: 700;
-    }
 }
 
 a {

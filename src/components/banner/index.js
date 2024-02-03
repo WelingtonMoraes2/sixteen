@@ -22,7 +22,9 @@ function Banner() {
             <Swiper
                 loop={true}
                 effect={"fade"}
-                pagination={true}
+                pagination={{
+                    clickable: true,
+                }}
                 modules={[Autoplay, EffectFade, Pagination]}
                 autoplay={{
                     delay: 5000,
@@ -31,13 +33,31 @@ function Banner() {
                 className="banner__swiper"
             >
                 <SwiperSlide>
-                    <img src={banner1} />
+                    <div className="banner__swiper--img">
+                        <img src={banner1} />
+                    </div>
+                    <div className="banner__swiper--text">
+                        <h2>Inovação Audiovisual</h2>
+                        <p>Contamos histórias cativantes</p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={banner2} />
+                    <div className="banner__swiper--img">
+                        <img src={banner2} />
+                    </div>
+                    <div className="banner__swiper--text">
+                        <h2>Equipamentos de qualidade</h2>
+                        <p>Produzimos histórias cativantes</p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={banner3} />
+                    <div className="banner__swiper--img">
+                        <img src={banner3} />
+                    </div>
+                    <div className="banner__swiper--text">
+                        <h2>Gravações de excelência</h2>
+                        <p>Divulgamos histórias cativantes</p>
+                    </div>
                 </SwiperSlide>
             </Swiper>
         </div>

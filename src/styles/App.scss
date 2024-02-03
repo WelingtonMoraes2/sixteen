@@ -1,2 +1,178 @@
 .App {
+    &__servicos {
+        width: 100%;
+        text-align: center;
+        padding: 100px 0px;
+
+        h1 {
+            color: #000000;
+        }
+
+        h2 {
+            position: relative;
+            color: #000000;
+            display: inline-block;
+            margin-top: 100px;
+            line-height: 60px;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                width: 120%;
+                height: 65%;
+                background-color: #ff8d30;
+                z-index: -1;
+            }
+        }
+
+        p {
+            font-size: 1.88rem;
+            color: #707070;
+            margin-top: 30px;
+        }
+
+        &--imgs {
+            width: 100%;
+            margin-top: 35px;
+
+            &--content {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+
+                &--item {
+                    position: relative;
+                    box-sizing: border-box;
+                    width: 32%;
+
+                    .fade {
+                        position: absolute;
+                        width: 100%;
+                        max-width: 511px;
+                        height: 100%;
+                        background-color: #1d317f8f;
+                        opacity: 0;
+                        transition: 0.3s;
+
+                        display: flex;
+                        align-content: center;
+                        justify-content: center;
+                        flex-wrap: wrap;
+
+                        h3 {
+                            font-size: 2.2rem;
+                            font-weight: 500;
+                            color: #ff8d30;
+                        }
+
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+
+                    img {
+                        width: 100%;
+                        max-width: 511px;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    &__quemSomos {
+        padding: 100px 0px;
+        position: relative;
+
+        &--detalheEsquerdo {
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            transform: translateY(-50%);
+            z-index: -1;
+            max-width: 700px;
+        }
+
+        &--text {
+            width: 90%;
+            max-width: 810px;
+            margin: 0 auto;
+
+            h1 {
+                position: relative;
+                font-size: 3rem;
+                font-weight: 600;
+                color: #000000;
+                margin-bottom: 50px;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: -12px;
+                    left: 0px;
+                    width: 131px;
+                    height: 12px;
+                    background-color: #ff8d30;
+                }
+            }
+
+            p {
+                color: #707070;
+            }
+        }
+    }
+
+    &__projetos {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 200px;
+
+        h2 {
+            position: relative;
+            color: #000000;
+            display: inline-block;
+            margin-top: 100px;
+            line-height: 60px;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                width: 120%;
+                height: 65%;
+                background-color: #ff8d30;
+                z-index: -1;
+            }
+        }
+
+        p {
+            font-size: 1.88rem;
+            color: #707070;
+            margin-top: 30px;
+        }
+
+        &--videos {
+            width: 100%;
+            margin-top: 50px;
+
+            &--content {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+
+                &--item {
+                    position: relative;
+                    box-sizing: border-box;
+                    width: 32%;
+                }
+            }
+        }
+    }
 }
