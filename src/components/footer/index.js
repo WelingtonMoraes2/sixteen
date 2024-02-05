@@ -16,7 +16,7 @@ function Footer() {
     return (
         <footer className="is-flex is-align-items-center" id="idContato">
             <div className="bg-content">
-                <div class="columns">
+                <div class="columns is-multiline is-desktop is-centered">
                     <div class="column is-three-fifths is-flex is-flex-wrap-wrap is-align-items-center">
                         <div class="columns columnsInfos">
                             <div class="column is-half">

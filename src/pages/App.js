@@ -60,7 +60,7 @@ function App() {
                 />
                 <div className="bg-content">
                     <div class="columns">
-                        <div class="column is-two-fifths">
+                        <div class="column is-two-fifths is-flex is-align-items-center is-justify-content-center">
                             <img src={quemSomos} />
                         </div>
                         <div class="column is-flex is-align-items-center">

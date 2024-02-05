@@ -4,11 +4,21 @@ header {
     min-height: 134px;
     background-color: #111d4d;
     transition: 0.3s;
+    position: relative;
 
     img {
         width: 100%;
         max-width: 226px;
-        padding: 1px;
+    }
+
+    .is-one-quarter {
+        @media only screen and (max-width: 1023px) {
+            width: 50% !important;
+        }
+    }
+
+    .is-mobile {
+        margin: 0px !important;
     }
 
     .linkMenu {
@@ -17,6 +27,57 @@ header {
         letter-spacing: 0px;
         margin-left: 42px;
         transition: 0.3s;
+        text-align: center;
+    }
+
+    .menu__desktop {
+        display: none !important;
+
+        @media only screen and (min-width: 1024px) {
+            display: flex !important;
+        }
+    }
+
+    .menu__mobile {
+        display: none !important;
+
+        @media only screen and (max-width: 1024px) {
+            display: flex !important;
+        }
+    }
+
+    .menu-list {
+        display: none;
+        background-color: #111d4d;
+        position: absolute;
+        top: 134px;
+        left: 0px;
+        width: 100%;
+        padding: 1rem;
+        z-index: 2;
+
+        a {
+            margin-bottom: 10px;
+        }
+    }
+
+    .is-open {
+        display: block;
+
+        @media screen and (min-width: 1023px) {
+            display: none;
+        }
+    }
+
+    .navbar {
+        background-color: white;
+
+        span {
+            color: #ee771c;
+            opacity: 1;
+            height: 2px;
+            transition-property: none;
+        }
     }
 }
 
