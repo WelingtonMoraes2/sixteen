@@ -94,7 +94,7 @@ function App() {
                 <div className="bg-content">
                     <h2>Projetos</h2>
                     <p>
-                        Atendemos diversos clientes de diferente áreas como
+                        Atendemos diversos clientes de diferentes áreas como
                         esportes, tecnologia, estética e educação.
                     </p>
 

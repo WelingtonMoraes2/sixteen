@@ -77,19 +77,35 @@ function Header() {
                 </div>
 
                 <div className={`menu-list ${menuAberto ? "is-open" : ""}`}>
-                    <a href="#idHome" className="linkMenu">
+                    <a href="#idHome" className="linkMenu" onClick={toggleMenu}>
                         Home
                     </a>
-                    <a href="#idServico" className="linkMenu">
+                    <a
+                        href="#idServico"
+                        className="linkMenu"
+                        onClick={toggleMenu}
+                    >
                         Serviços
                     </a>
-                    <a href="#idQuemSomos" className="linkMenu">
+                    <a
+                        href="#idQuemSomos"
+                        className="linkMenu"
+                        onClick={toggleMenu}
+                    >
                         Quem Somos
                     </a>
-                    <a href="#idProjetos" className="linkMenu">
+                    <a
+                        href="#idProjetos"
+                        className="linkMenu"
+                        onClick={toggleMenu}
+                    >
                         Projetos
                     </a>
-                    <a href="#idContato" className="linkMenu">
+                    <a
+                        href="#idContato"
+                        className="linkMenu"
+                        onClick={toggleMenu}
+                    >
                         Contato
                     </a>
                 </div>
