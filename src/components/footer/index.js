@@ -24,16 +24,36 @@ function Footer() {
                                     <img src={logoFooter} />
                                 </div>
                                 <div className="is-full is-flex">
-                                    <a className="redeSocial is-flex is-align-items-center is-justify-content-center">
+                                    <a
+                                        href="https://www.facebook.com/people/Sixteen-Est%C3%BAdios/100095434350416/?locale2=hi_IN"
+                                        target="_blank"
+                                        className="redeSocial is-flex is-align-items-center is-justify-content-center"
+                                        rel="noreferrer"
+                                    >
                                         <FontAwesomeIcon icon={faFacebookF} />
                                     </a>
-                                    <a className="redeSocial is-flex is-align-items-center is-justify-content-center">
+                                    <a
+                                        href="https://www.instagram.com/sixteen.estudios/"
+                                        target="_blank"
+                                        className="redeSocial is-flex is-align-items-center is-justify-content-center"
+                                        rel="noreferrer"
+                                    >
                                         <FontAwesomeIcon icon={faInstagram} />
                                     </a>
-                                    <a className="redeSocial is-flex is-align-items-center is-justify-content-center">
+                                    <a
+                                        href="https://www.linkedin.com/company/sixteen-est%C3%BAdios"
+                                        target="_blank"
+                                        className="redeSocial is-flex is-align-items-center is-justify-content-center"
+                                        rel="noreferrer"
+                                    >
                                         <FontAwesomeIcon icon={faLinkedinIn} />
                                     </a>
-                                    <a className="redeSocial is-flex is-align-items-center is-justify-content-center">
+                                    <a
+                                        href="https://www.youtube.com/@CanalSixteenEstudios/"
+                                        target="_blank"
+                                        className="redeSocial is-flex is-align-items-center is-justify-content-center"
+                                        rel="noreferrer"
+                                    >
                                         <FontAwesomeIcon icon={faYoutube} />
                                     </a>
                                 </div>
