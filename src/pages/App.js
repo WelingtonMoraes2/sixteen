@@ -2,6 +2,7 @@
 // import logo from './logo.svg';
 import "../styles/App.scss";
 import Banner from "../components/banner";
+import WhatsAppButton from "../components/whatsAppButton";
 
 // Serviços
 import podcast from "../assets/servicos/podcast.png";
@@ -137,6 +138,8 @@ function App() {
                     </div>
                 </div>
             </div>
+
+            <WhatsAppButton />
         </div>
     );
 }
