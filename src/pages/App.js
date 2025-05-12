@@ -4,12 +4,12 @@ import "../styles/App.scss";
 import Banner from "../components/banner";
 
 // Serviços
-import podcast from "../assets/servicos/podcast.png";
-import lives from "../assets/servicos/lives.png";
-import videoaulas from "../assets/servicos/videoaulas.png";
+import podcast from "../assets/servicos/podcast.webp";
+import lives from "../assets/servicos/lives.webp";
+import videoaulas from "../assets/servicos/videoaulas.webp";
 
 // Quem Somos
-import quemSomos from "../assets/quemSomos/quemSomos.png";
+import quemSomos from "../assets/quemSomos/quemSomos.webp";
 import detalheEsquerdo from "../assets/quemSomos/detalhe_esquerdo.png";
 
 // Projetos
