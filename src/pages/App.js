@@ -104,10 +104,11 @@ function App() {
                                 <iframe
                                     width="560"
                                     height="315"
-                                    src="https://www.youtube.com/embed/yx6bt-LSKq8?si=DyaOAl3jzi1XbqZu"
+                                    src="https://www.youtube.com/embed/f4TlXFaoLzo?si=YBTGVQmQ6OG06XE8"
                                     title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
                                     allowfullscreen
                                 ></iframe>
                             </div>
@@ -115,10 +116,11 @@ function App() {
                                 <iframe
                                     width="560"
                                     height="315"
-                                    src="https://www.youtube.com/embed/yx6bt-LSKq8?si=DyaOAl3jzi1XbqZu"
+                                    src="https://www.youtube.com/embed/2Bv2gme-ezs?si=qhLeCCrgbU0efisf"
                                     title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
                                     allowfullscreen
                                 ></iframe>
                             </div>
@@ -126,10 +128,11 @@ function App() {
                                 <iframe
                                     width="560"
                                     height="315"
-                                    src="https://www.youtube.com/embed/yx6bt-LSKq8?si=DyaOAl3jzi1XbqZu"
+                                    src="https://www.youtube.com/embed/o2uEwwLnJdI?si=WEyoJx3kuScXputt"
                                     title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
                                     allowfullscreen
                                 ></iframe>
                             </div>
